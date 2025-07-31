@@ -7,7 +7,7 @@ export default class ShareButton extends Component {
   @service router;
 
   get currentURL() {
-    console.log('***** for fun *********');
+    console.log('***** for fun2 *********');
     return new URL(this.router.currentURL, window.location.origin);
   }
 
